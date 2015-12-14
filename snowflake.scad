@@ -1,9 +1,9 @@
 el = 46.1; // edge length at max radius
 ft = 2; // flake thickness
-cmt = el / 5; // crystal max thickness
-xw = 2; // extrude width
+cmt = el / 4; // crystal max thickness
+xw = 3; // extrude width
 nc = 18; // number of crystals
-bw = 2; // backbone width
+bw = 4; // backbone width
 
 pn = "Test"; // person name
 
@@ -11,7 +11,7 @@ make_2d = true; // set to true for 2d output (e.g. DXF)
 
 //rs = floor(rands(0,pow(10,6),1)[0]); // random number seed.
 //rs = 1416261; // Uncomment to get a consistent snowflake
-rs = 16120121;
+rs = 78278400;
 
 echo("Random number seed: ", rs);
 echo("Name: ", pn);
