@@ -23,11 +23,8 @@ snowflake_list.forEach(function(item) {
 
     console.log("Making flake for %s", name);
     console.log("RS: %d radius: %d", rs, radius);
-    console.log("%s %s -D rs=%d -D 'pn=\"%s\"' -D el=%d -o test.dxf",
-            openscad, snowflake, rs, name, radius);
     var command = openscad + " " + snowflake + " -D rs=" + rs;
     command += " -D 'pn=\"" + name + "\"' -D el=" + radius;
     command += " -o '" + output + name + ".dxf'";
-    console.log(command);
     child_process.execSync(command);
 });

@@ -11,7 +11,7 @@ make_2d = true; // set to true for 2d output (e.g. DXF)
 
 //rs = floor(rands(0,pow(10,6),1)[0]); // random number seed.
 //rs = 1416261; // Uncomment to get a consistent snowflake
-rs = 78278400;
+rs = 160099200;
 
 echo("Random number seed: ", rs);
 echo("Name: ", pn);
