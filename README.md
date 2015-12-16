@@ -4,11 +4,11 @@
 (Gringer) per: http://www.thingiverse.com/thing:39685
 * Scad file used under CC-BY-SA
 
-If you'd like to use this generator simply pass in a file which contains a json
+If you'd like to use this generator simply create a file which contains a json
 array of objects as:
 
 ```javascript
-{[
+[
     {
         "fname": "Andrew",
         "sname": "Fisher",
@@ -19,7 +19,7 @@ array of objects as:
         "sname": "Claus",
         "dob": "1865-12-25"
     }
-]}
+]
 ```
 
 Call this with:

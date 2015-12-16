@@ -1,10 +1,11 @@
 var child_process = require("child_process");
+var path = require("path");
 
 var openscad = "OpenSCAD"; // path to the open scad file.
 var snowflake = "snowflake.scad"; // input file
 var output = "output/";
 
-var snowflake_list = require("./list.json");
+var snowflake_list = require(path.resolve("./", process.argv[2]));
 
 snowflake_list.forEach(function(item) {
 
@@ -19,7 +20,6 @@ snowflake_list.forEach(function(item) {
     }
 
     var radius = nameval / 10 / 2;
-
 
     console.log("Making flake for %s", name);
     console.log("RS: %d radius: %d", rs, radius);
