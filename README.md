@@ -4,6 +4,14 @@
 (Gringer) per: http://www.thingiverse.com/thing:39685
 * Scad file used under CC-BY-SA
 
+## Dependencies
+
+* You will need NodeJS (any relatively recent version above 0.10 should work)
+* You will need openscad on your path. On OSX this means adding something like
+`/Users/user/Applications/OpenSCAD.app/Contents/MacOS/` to your $PATH variable.
+
+## Usage
+
 If you'd like to use this generator simply create a file which contains a json
 array of objects as:
 
